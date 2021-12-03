@@ -54,7 +54,7 @@ export default class SpaceCraftsScreen extends Component {
             return (
                 <View
                     style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-                    <Text>Loading</Text>
+                    <Text>Cargando</Text>
                 </View>
             )
         } else {
@@ -63,7 +63,7 @@ export default class SpaceCraftsScreen extends Component {
                     <SafeAreaView style={styles.droidSafeArea} />
                     <ImageBackground source={require('../assets/stars.gif')} style={styles.backgroundImage}>
                         <View style={{ flex: 0.15, alignItems: 'center', justifyContent: 'center' }}>
-                            <Text style={styles.titleText}>Spacecrafts</Text>
+                            <Text style={styles.titleText}>Naves espaciales</Text>
                         </View>
                         <View style={{ flex: 0.85 }}>
                             <FlatList
