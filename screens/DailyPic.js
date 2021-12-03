@@ -46,7 +46,7 @@ export default class DailyPicScreen extends Component {
             return (
                 <View
                     style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-                    <Text>Loading</Text>
+                    <Text>Cargando</Text>
                 </View>
             )
         }
@@ -56,7 +56,7 @@ export default class DailyPicScreen extends Component {
                     <SafeAreaView style={styles.droidSafeArea} />
                     <ImageBackground source={require('../assets/stars.gif')} style={styles.backgroundImage}>
                         <View style={{ flex: 0.15, justifyContent: "center", textAlign: "center" }}>
-                            <Text style={styles.routeText}>Daily Pic</Text>
+                            <Text style={styles.routeText}>Imágenes diarias</Text>
                         </View>
                         <ScrollView style={styles.listContainer}>
                             <TouchableOpacity
